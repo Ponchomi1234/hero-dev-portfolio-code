@@ -1,0 +1,42 @@
+/* body{
+    color: black;
+} */
+ *{
+    margin: 0;
+    padding: 0;
+    box
+ }
+ /* shared style */
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+/* main style */
+header{
+    background-color:  #ffcca8;
+    padding-top: 50px;
+    
+}
+nav{
+    width: 70%;
+    max-width: 1140px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo h2{
+    font-size: 45px;
+    font-weight: 900;
+}
+.color-orange{
+    color: #FD6E0A;
+}
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 51px;
+}
