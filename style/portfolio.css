@@ -28,6 +28,15 @@ nav{
     justify-content: space-around;
     align-items: center;
 }
+.button {
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
 .logo h2{
     font-size: 45px;
     font-weight: 900;
@@ -39,4 +48,12 @@ nav .menu{
     display: flex;
     list-style-type: none;
     gap: 51px;
+    align-items: center;
+}
+nav .menu a{
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+    
+
 }
