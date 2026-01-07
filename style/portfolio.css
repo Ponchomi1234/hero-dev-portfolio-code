@@ -15,7 +15,10 @@
 }
 /* main style */
 header{
-    background-color:  #ffcca8;
+    background-color:  #fff8f3;
+    background: url("../images/developer.png") ,url("../images/header_bg.png"),#fff8f3;
+    background-position: top left,bottom right;
+    background-repeat: no-repeat;
     padding-top: 50px;
     
 }
@@ -28,7 +31,7 @@ nav{
     justify-content: space-around;
     align-items: center;
 }
-.button {
+.btn{
     background-color: #FD6E0A;
     border: none;
     padding: 18px 35px;
@@ -36,6 +39,7 @@ nav{
     font-size: 20px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
 .logo h2{
     font-size: 45px;
@@ -56,4 +60,41 @@ nav .menu a{
     text-decoration: none;
     
 
+}
+#bannar{
+    /* border: 1px solid red; */
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+
+
+}
+#banner .banner-content{
+    max-width: 585px;
+}
+
+
+#bannar .banner-content h2{
+    font-size: 45px;
+    font-weight:600 ;
+    color: #474747;
+    margin-bottom: 5px;
+
+}
+#bannar .banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+#bannar .banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#bannar .banner-image img {
+    max-width: 585px;
+    vertical-align: middle;
 }
